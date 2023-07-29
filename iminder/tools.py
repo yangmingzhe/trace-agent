@@ -115,4 +115,4 @@ class AnalyseInput(BaseModel):
     arg: str = Field(
         ...,
         description="Statistical data of process resource usage.",
-    ),
+    )
